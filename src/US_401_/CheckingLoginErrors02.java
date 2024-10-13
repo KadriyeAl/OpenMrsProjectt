@@ -1,13 +1,14 @@
 package US_401_;
 
 import UData.InvalidData;
-import Utility.BaseDriverParameterE;
+import Utility.BaseDriverParameter;
+import Utility.BaseDriverParameter;
 import Utility.Tools;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class CheckingLoginErrors02 extends BaseDriverParameterE {
+public class CheckingLoginErrors02 extends BaseDriverParameter {
     public static US_401_.LoginE le = new US_401_.LoginE();
 
     @Test

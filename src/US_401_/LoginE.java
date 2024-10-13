@@ -1,6 +1,7 @@
 package US_401_;
 
-import Utility.BaseDriverParameterE;
+import Utility.BaseDriverParameter;
+import Utility.BaseDriverParameter;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -11,7 +12,7 @@ public class LoginE extends ParentE{
 
     public LoginE()
     {
-        PageFactory.initElements(BaseDriverParameterE.driver, this);
+        PageFactory.initElements(BaseDriverParameter.driver, this);
     }
 
     @FindBy(xpath = "//a[@class='zak-button']")

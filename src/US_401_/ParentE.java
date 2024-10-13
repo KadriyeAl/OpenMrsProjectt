@@ -1,6 +1,7 @@
 package US_401_;
 
-import Utility.BaseDriverParameterE;
+import Utility.BaseDriverParameter;
+import Utility.BaseDriverParameter;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -10,7 +11,7 @@ import org.testng.Assert;
 
 import java.time.Duration;
 
-public class ParentE extends BaseDriverParameterE {
+public class ParentE extends BaseDriverParameter {
     WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 
     public void mySendKeys(WebElement element, String text) {
