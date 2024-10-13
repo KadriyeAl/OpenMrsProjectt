@@ -3,7 +3,7 @@ import Utility.BaseDriver;
 import Utility.Tools;
 import com.beust.jcommander.Parameter;
 import org.junit.Test;
-import org.junit.runners.Parameterized;
+
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class testing404POM extends BaseDriver {
@@ -50,7 +50,7 @@ public class testing404POM extends BaseDriver {
         elements.EstimatedYear.sendKeys("39");
         elements.EstimatedMonth.sendKeys("08");
 
-        elements.confirmButton.click():
+        elements.confirmButton.click();
 
 
 

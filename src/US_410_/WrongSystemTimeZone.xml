@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="US410 Suit">
+    <test name="TC1001 Test Firefox">
+        <parameter name="BrowserTipi" value="firefox"></parameter>
+
+        <classes>
+            <class name="US_410_.WrongSystemTimeZone"></class>
+        </classes>
+    </test>
+
+    <test name="TC1001 Test Edge">
+        <parameter name="BrowserTipi" value="edge"></parameter>
+
+        <classes>
+            <class name="US_410_.WrongSystemTimeZone"></class>
+        </classes>
+    </test>
+</suite>
